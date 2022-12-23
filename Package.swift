@@ -28,6 +28,7 @@ let package = Package(
                 .headerSearchPath("OSSFileLog"),
                 .headerSearchPath("OSSIPv6"),
                 .headerSearchPath("OSSTask")
+                .headerSearchPath("include")
             ],
             linkerSettings: [
                 .linkedLibrary("resolv")
