@@ -27,7 +27,7 @@ let package = Package(
                 .headerSearchPath("."),
                 .headerSearchPath("OSSFileLog"),
                 .headerSearchPath("OSSIPv6"),
-                .headerSearchPath("OSSTask")
+                .headerSearchPath("OSSTask"),
                 .headerSearchPath("include")
             ],
             linkerSettings: [
